@@ -13,7 +13,7 @@ display_welcome() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${BLUE}[+]                  © RafatharCode                [+]${NC}"
+  echo -e "${BLUE}[+]                  © AkbarDev                [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${RED}[+] =============================================== [+]${NC}"
   echo -e ""
@@ -21,9 +21,9 @@ display_welcome() {
   echo -e "dilarang keras untuk dikasih gratis."
   echo -e ""
   echo -e "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :"
-  echo -e "@RafatharCode"
+  echo -e "@Akbarn8"
   echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "@RafatharCode"
+  echo -e "@Akbarn8"
   sleep 4
   clear
 }
@@ -62,14 +62,14 @@ check_token() {
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "alfibila" ]; then
+  if [ "$USER_TOKEN" = "akbardev7766" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
-    echo -e "${GREEN}Buy dulu Gih Ke RafatharCode X Amalia${NC}"
-    echo -e "${YELLOW}TELEGRAM : @RafatharCode${NC}"
+    echo -e "${GREEN}Buy dulu Gih Ke Akbar${NC}"
+    echo -e "${YELLOW}TELEGRAM : @Akbarn8${NC}"
     echo -e "${YELLOW}WHATSAPP : 6285864743922${NC}"
     echo -e "${YELLOW}HARGA TOKEN : 25K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
-    echo -e "${YELLOW}©RafatharCode${NC}"
+    echo -e "${YELLOW}©Akbarn8${NC}"
     exit 1
   fi
   clear
